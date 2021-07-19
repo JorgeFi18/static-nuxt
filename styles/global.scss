@@ -1,0 +1,66 @@
+html {
+    overflow-y: hidden !important;
+}
+
+.main {
+  height: 100%;
+}
+
+.redirection {
+  display: flex;
+  justify-content: center;
+
+  a {
+    text-transform: uppercase;
+    padding: 10px 45px;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+    background-color: #e2ce3b;
+    margin-top: 35px;
+    transition: all 0.8s;
+    color: #424242;
+
+    &:hover {
+      background-color: #000;
+      color: #fff;
+    }
+  }
+}
+
+.pg-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+        & > * {
+        width: 100%;
+    }
+}
+
+.pg-card {
+  color: #fff;
+  background-color: #f15048d4;
+  font-size: 1.4rem;
+  padding: 20px 60px;
+  border-radius: 16px;
+}
+
+.title,
+.subtitle {
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+.subtitle {
+  font-size: 2rem;
+}
