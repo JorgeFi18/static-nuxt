@@ -4,7 +4,7 @@
     <div class="home">
       <Nuxt />
       <script type="text/javascript">(function () { var ldk = document.createElement('script'); ldk.type = 'text/javascript'; ldk.async = true; ldk.src='https://s.stagecliengo.com/weboptimizer/60f84c8da0353d00265d366f/60f84c8da0353d00265d3671.js?platform=dashboard'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ldk, s); })();</script>
-      <script>
+      <script type="text/javascript">
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
