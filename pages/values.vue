@@ -19,3 +19,14 @@
     </div>
  </main>
 </template>
+
+<script>
+export default {
+  head: {
+    title: 'Power GYM Valores',
+    meta: [
+      { name: 'description', content: 'Conociendo los valore de Power GYM'}
+    ]
+  }
+}
+</script>

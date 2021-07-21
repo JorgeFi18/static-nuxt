@@ -13,7 +13,7 @@
         </div>
         <div class="plan-card__price">
             Q{{plan.price}}.00
-            <button>Contratar</button>
+            <NuxtLink :to="{path:'contact', query: {plan: plan.name}}">Contratar</NuxtLink>
         </div>
     </div>
 </template>
@@ -61,7 +61,7 @@ export default {
             display: flex;
             flex-direction: column;
 
-            button {
+            a {
                 border: none;
                 border-radius: 16px;
                 background-color: #c92017;

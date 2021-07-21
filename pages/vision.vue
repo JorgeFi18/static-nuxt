@@ -11,3 +11,14 @@
     </div>
  </main>
 </template>
+
+<script>
+export default {
+  head: {
+    title: 'Power GYM Visión',
+    meta: [
+      { name: 'description', content: 'Conociendo la visión de Power GYM'}
+    ]
+  }
+}
+</script>

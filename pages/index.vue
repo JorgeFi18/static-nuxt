@@ -32,7 +32,14 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head: {
+    title: 'Power GYM Home Page',
+    meta: [
+      { name: 'description', content: 'Pagina principal de Power GYM'}
+    ]
+  }
+}
 </script>
 
 <style lang="scss" scoped>
@@ -56,6 +63,10 @@ export default {}
       transform: scale(1.1);
       background-color: #c92017;
     }
+  }
+
+  @media (max-width: 450px) {
+    height: 180px;
   }
 }
 </style>

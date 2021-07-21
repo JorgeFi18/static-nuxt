@@ -3,7 +3,7 @@
         <h1 class="title">
             Encuentra el plan que mejor se acomode a tus necesidades
         </h1>
-        <div class="columns is-multiline is-mobile plans">
+        <div class="columns is-multiline plans">
             <div class="column is-one-third plan__item" v-for="(plan, index) in plans" :key="index">
                 <Plan :plan="plan" />
             </div>
@@ -16,6 +16,12 @@ import Plan from '@/components/Plan.vue';
 import plans from '@/constants/plans';
 
 export default {
+    head: {
+        title: 'Power GYM Planes',
+        meta: [
+        { name: 'description', content: 'Conociendo los planes que Power GYM ofrece'}
+        ]
+    },
     components: {
         Plan
     },

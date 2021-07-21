@@ -1,6 +1,8 @@
 <template>
     <header class="heading">
-        <img src="/gym-logo.png" alt="logo" />
+        <NuxtLink to="/">
+            <img src="/index.jpeg" alt="logo" />
+        </NuxtLink>
         <ul>
             <li>
                 <NuxtLink to="/">
@@ -13,7 +15,7 @@
                 </NuxtLink>
             </li>
             <li>
-                <NuxtLink to="/">
+                <NuxtLink to="/contact">
                     Contacto
                 </NuxtLink>
             </li>
@@ -32,6 +34,10 @@
   background-color: #424242;
   margin: 0;
 
+  img {
+      height: 60px;
+  }
+  
   ul {
       display: flex;
 

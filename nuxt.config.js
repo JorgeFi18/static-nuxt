@@ -11,11 +11,17 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { hid: 'description', name: 'description', content: 'El mejor gimnasio del area' },
+      { name: 'keywords', content: 'gym, fitness, zumba, pilates, pesas' },
+      { name: 'robots', content: 'index, follow' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/gym-logo.png' }
+      { rel: 'icon', type: 'image/x-icon', href: '/index.jpeg' }
+    ],
+    script: [
+      {
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-R8QYPP3KMR'
+      }
     ]
   },
 
@@ -34,6 +40,9 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-28791515-1'
+    }]
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
