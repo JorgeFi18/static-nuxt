@@ -20,7 +20,8 @@ export default {
     ],
     script: [
       {
-        src: 'https://www.googletagmanager.com/gtag/js?id=G-LBEEYVG19E'
+        src: '/scripts/googletagmanager.js',
+        defer: true
       }
     ]
   },
