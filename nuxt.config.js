@@ -40,7 +40,7 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-
+    '@nuxtjs/pwa'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -57,7 +57,19 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      lang: 'en'
+      lang: 'es'
+    },
+    meta: {
+      lang: 'es',
+      ogType: 'website',
+      ogSiteName: 'Power GYM',
+      ogTitle: 'Power GYM',
+      ogDescription: 'El mejor gimnasio del area, en el cual podras llevar tu estilo de vida al siguiente nivel',
+    },
+    workbox: {
+      workboxVersion: '1',
+      autoRegister: true,
+      preCaching: ['googletagmanager.js']
     }
   },
 
