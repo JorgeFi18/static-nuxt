@@ -1,7 +1,7 @@
 <template>
     <header class="heading">
         <NuxtLink to="/">
-            <img src="/index.jpeg" alt="logo" />
+            <img src="/index.jpeg" alt="logo" width="120" height="60" />
         </NuxtLink>
         <ul>
             <li>
