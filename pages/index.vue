@@ -66,7 +66,8 @@ export default {
   }
 
   @media (max-width: 450px) {
-    height: 180px;
+    height: 70px;
+    min-height: 70px;
   }
 }
 </style>
