@@ -31,7 +31,7 @@ export default {
         }
     },
     mounted: function() {
-        fetch('http://fast-reaches-71593.herokuapp.com/api/plans')
+        fetch('https://fast-reaches-71593.herokuapp.com/api/plans')
         .then(data => data.json())
         .then(plans => {
             this.plans = plans
