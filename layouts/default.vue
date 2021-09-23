@@ -3,8 +3,8 @@
     <Header />
     <div class="home">
       <Nuxt />
-      <script type="text/javascript">(function () { var ldk = document.createElement('script'); ldk.type = 'text/javascript'; ldk.async = true; ldk.src='https://s.stagecliengo.com/weboptimizer/60f84c8da0353d00265d366f/60f84c8da0353d00265d3671.js?platform=dashboard'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ldk, s); })();</script>
-      <script defer type="text/javascript">(function() {window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-LBEEYVG19E');})();</script>
+      <!-- Cliengo installation code for -->
+      <script type="text/javascript">(function () { var ldk = document.createElement('script'); ldk.type = 'text/javascript'; ldk.async = true; ldk.src = 'https://s.cliengo.com/weboptimizer/undefined/all.js?platform=dashboard'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ldk, s); })();</script>
     </div>
   </div>
 </template>
