@@ -3,8 +3,17 @@
     <Header />
     <div class="home">
       <Nuxt />
-      <!-- Cliengo installation code for -->
-      <script type="text/javascript">(function () { var ldk = document.createElement('script'); ldk.type = 'text/javascript'; ldk.async = true; ldk.src = 'https://s.cliengo.com/weboptimizer/undefined/all.js?platform=dashboard'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ldk, s); })();</script>
+     <!-- Cliengo installation code for sherlocktest@gmail.com -->
+     <script type="text/javascript">
+     (function () {
+       var ldk = document.createElement('script');
+       ldk.type = 'text/javascript';
+       ldk.async = true;
+       ldk.src = 'https://s.cliengo.com/weboptimizer/614cc8a887fcae002a468a95/614cc8ab87fcae002a468a98.js?platform=dashboard';
+       var s = document.getElementsByTagName('script')[0];
+       s.parentNode.insertBefore(ldk, s);
+      })();
+      </script>
     </div>
   </div>
 </template>
